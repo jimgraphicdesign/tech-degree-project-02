@@ -11,6 +11,9 @@ body {
 	line-height: 1.6;
 	color: #3a3a3a;
 	margin: 0;
+	min-height: 100vh;
+	display: flex;
+	flex-direction: column;
 }
 ul {
   margin: 0;
@@ -23,7 +26,6 @@ p {
 
 	
 }
-h2,
 h3,
 a {
 	color: #252525;
@@ -33,7 +35,7 @@ h3 {
 	margin-top: 0;
 }
 a {
-	text-decoration: none;
+	text-decoration: underline;
 }
 img {
 	max-width: 100%;
@@ -62,7 +64,7 @@ img {
 }
 .main-nav a {
 	font-size: 1em;
-	color: #3acec2;
+	color: goldenrod;
 	text-transform: uppercase;
 	border-bottom: 1px solid slategrey;
 	background-color: rgb(238, 233, 233);
@@ -86,16 +88,15 @@ img {
 .row{
 	display: flex;
 	flex-wrap: wrap;
-	flex:content-box;
 }
 
 .hero {
-	color: #252525;
+	color: gold;
 	margin: 5%;
 	padding: 15%;
 	background-image: url('../img/shell.png');
 	background-blend-mode: multiply;
-	background-color: green;
+	background-color: rgb(1, 48, 1);
 }
 
 .column
@@ -160,8 +161,7 @@ img {
 	
 	.main-nav a {
 		font-size: 1em;
-		color: #3acec2;
-		text-transform: uppercase;
+		color: goldenrod;
 		border-bottom: transparent;
 		background-color: white;
 	}
@@ -173,11 +173,10 @@ img {
 	.row{
 		display: flex;
 		flex-wrap: wrap;
-		flex:content-box;
 	}
 	
 	.hero {
-		color: #252525;
+	color: gold;
 		padding: 1.8em 0;
 		margin-bottom: 5%;
 	}
