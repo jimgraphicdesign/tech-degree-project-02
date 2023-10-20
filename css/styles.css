@@ -99,6 +99,17 @@ img {
 	background-color: rgb(1, 48, 1);
 }
 
+.button{
+	flex: 1 50%;
+	background: green;
+	border: none;
+	margin-top: 1%;
+	padding: 2%;
+	font-family: "Bricolage Grotesque", sans-serif;
+	font-size: 1rem;
+	color: white;
+}
+
 .column
 {
 	flex: 100%;
